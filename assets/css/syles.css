@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  height: 460px;
+  width: 491px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.titu {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  gap: 100px;
+}
+
+p {
+  width: 20%;
+  font-weight: bold;
+}
+
+hr {
+  display: inline;
+  width: 70%;
+}
+
+button {
+  background-color: transparent;
+  height: 70px;
+  width: 70px;
+  outline: none;
+  border: 0.1rem solid grey;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#rosa {
+  background-color: #ff0099;
+  color: white;
+}
+
+/* button:hover {
+  color: white;
+
+
+} */
+
+.che {
+  display: inline;
+  gap: 10px;
+  margin: 20px;
+  position: relative;
+  right: 80px;
+  height: auto;
+}
+
+label {
+  font-weight: bold;
+  color: #151a41;
+}
+
+/* span {
+  font-weight: bold;
+  color: #151a41;
+} */
+
+#sig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 100px;
+  color: #151a41;
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+}
