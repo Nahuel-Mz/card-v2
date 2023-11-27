@@ -32,6 +32,7 @@
   position: absolute;
   top: 30px;
   left: 40px;
+  color: #151a41;
 }
 
 .botones {
@@ -44,6 +45,7 @@
   justify-content: space-around;
   align-content: center;
   gap: 100px;
+  color: #151a41;
 }
 
 p {
